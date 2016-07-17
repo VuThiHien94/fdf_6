@@ -1,3 +1,4 @@
 product_img_width: 125
 product_img_height: 125
 img_size: 25
+default_mail: "from@example.com"

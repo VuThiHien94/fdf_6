@@ -150,3 +150,8 @@ en:
     search: "Search"
     addconditions: "Add Conditions"
     sort: "Sort"
+  mail:
+    notifier: "Food-Drink System Notifier"
+    hi: "Hi, %{admin}"
+    notify: "Your store have received some orders from %{user}!"
+    check: "Please, go to Food-Drink System http://fdf_6.com/, check detail some orders"

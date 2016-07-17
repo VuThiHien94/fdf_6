@@ -11,6 +11,7 @@ class OrdersController < ApplicationController
 
   def update
     if @order.update_attributes order_params
+      mail = Notifier.send_admin_email(current_user).deliver_later
       flash[:success] = t "success"
     else
       flash[:danger] = t "error"

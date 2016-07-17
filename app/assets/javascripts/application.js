@@ -17,3 +17,11 @@
 //= require_tree .
 //= require filterrific/filterrific-jquery
 //= require social-share-button
+
+$(document).on('ready', function() {
+  set_timetout();
+});
+
+function set_timetout() {
+  $('.alert').delay(3000).slideUp();
+}
